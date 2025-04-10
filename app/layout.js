@@ -1,5 +1,8 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import '@fortawesome/fontawesome-free/css/all.min.css';
+import Footer from "./Footer";
+// import FooterImg from "./FooterImg";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -19,10 +22,18 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+
+
+      </head>
       <body
+
+
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
+        <Footer/>
+        {/* <FooterImg/> */}
       </body>
     </html>
   );
