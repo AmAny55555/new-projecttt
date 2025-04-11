@@ -6,7 +6,7 @@ function Review() {
   return (
     <div className="bg-[#131311] p-10 min-h-screen w-full">
   <h2 className="text-white text-3xl text-center mb-15">Customer Reviews</h2>
-  <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:gap-20 xl:grid-cols-4 gap-5">
+  <div className="grid grid-cols-1 sm:grid-cols-1 sm:gap-y-3 md:grid-cols-2  lg:grid-cols-3 lg:gap-y-5 lg:gap-x-5  xl:grid-cols-4    ">
   
 
     <div className="flex justify-center items-center">
