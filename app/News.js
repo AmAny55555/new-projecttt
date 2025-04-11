@@ -57,7 +57,7 @@ function News() {
 
           {/* Button to load more news */}
           <div className='px-15'>
-            <button className='bg-[#FFC34C] capitalize font-bold w-[120px] p-2 mt-15 cursor-pointer   mb-4 lg '>
+            <button className='bg-[#FFC34C] capitalize font-bold w-[120px] p-2 mt-15 cursor-pointer mb-3 '>
               more news
             </button>
           </div>

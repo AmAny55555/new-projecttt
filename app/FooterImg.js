@@ -28,20 +28,22 @@ function FooterImg() {
           </div>
 
           {/* أيقونات وسوشيال لينكات */}
-          <div className="mt-4">
+          <div className="mt-4 ">
             <div className="flex gap-5 text-neutral-100 mb-3">
               <i className="fa-brands fa-facebook"></i>
               <i className="fa-brands fa-instagram"></i>
               <i className="fa-solid fa-house"></i>
             </div>
 
-            <ul className="flex gap-5 text-neutral-200 capitalize font-thin text-sm flex-wrap">
+ <div className=' '>
+ <ul className="  flex gap-1 text-neutral-200 capitalize font-thin text-sm flex-wrap">
               <li>home</li>
               <li>gallery</li>
               <li>services</li>
-              <li>news</li>
-              <li>inquiries</li>
+              <li className=''>news</li>
+              <li className=''>inquiries</li>
             </ul>
+ </div>
           </div>
         </div>
       </div>
