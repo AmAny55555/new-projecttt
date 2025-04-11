@@ -4,9 +4,11 @@ import Card from './Card'
 
 function Review() {
   return (
-    <div className="bg-[#131311] p-10 min-h-screen w-full">
+    <div className="bg-[#131311] p-10  w-full">
   <h2 className="text-white text-3xl text-center mb-15">Customer Reviews</h2>
-  <div className="grid grid-cols-1 sm:grid-cols-1 sm:gap-y-3 md:grid-cols-2  lg:grid-cols-3 lg:gap-y-5 lg:gap-x-5  xl:grid-cols-4    ">
+  <div className="grid grid-cols-1 gap-y-10 sm:grid-cols-1 sm:gap-y-10 md:grid-cols-2 md:gap-y-3 lg:grid-cols-3 lg:gap-y-5 lg:gap-x-5 xl:grid-cols-4">
+ 
+
   
 
     <div className="flex justify-center items-center">

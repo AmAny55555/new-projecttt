@@ -25,7 +25,7 @@ function Footer() {
     <div className='bg-[#131311]  w-full p-20 '>
       <h1 className='text-white font-bold uppercase text-xl mt-20  '>Get in touch</h1>
 
-      <div className="w-full sm:flex flex-col   items-center justify-center md:flex-row md:flex lg:justify-between ">
+      <div className="w-full sm:flex flex-col   items-center justify-center lg:flex-row md:flex lg:justify-between ">
         {/* First Column */}
         <div className='col-1 text-white  mt-25 lg:w-1/2  sm:w-full md:w-full'>
           <div className='address flex items-center gap-3'>
